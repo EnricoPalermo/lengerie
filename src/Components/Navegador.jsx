@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -24,6 +26,8 @@ function Navegador() {
           <Nav>
             <Link to='/' className='estiloLink'>Inicio</Link>
             <Link to='/contact' className='estiloLink' >Contacto</Link>
+            <Link to='/register' className='estiloLink' >Registro</Link>
+            <Link to='/logIn' className='estiloLink' >Inico de sesion</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

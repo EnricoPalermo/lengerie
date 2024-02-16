@@ -1,9 +1,11 @@
 import React from "react";
+import Navegador from "../Components/Navegador";
 
 export const Error404Page = ()=>{
 return(
-    <div>
-        <h1>PAGINA DE ERROR</h1>
-    </div>
+    <>
+    <Navegador/>
+    <h1>PAGINA DE ERROR</h1>
+    </>
 )
 }
