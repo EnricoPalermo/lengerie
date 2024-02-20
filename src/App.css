@@ -4,6 +4,10 @@
     margin-bottom: 10px;
     display: flex;
 }
+.separador{
+    position: relative;
+    top: 56px;
+}
 
 
 .estiloLink{
@@ -17,6 +21,10 @@
     position: fixed;
     width: 100%;
     z-index: 2; 
+}
+
+.footer{
+    background-color: grey;
 }
 
 

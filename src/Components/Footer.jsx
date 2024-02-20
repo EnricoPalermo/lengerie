@@ -1,12 +1,17 @@
 import React from "react"
+import { Container, Row, Col} from "react-bootstrap"
 
 
 export const Footer = ()=>{
     return(
         <>
-              <div className="padre">
-               <h1>FOOTER</h1>
-              </div>
+            <Container fluid className="padre footer">
+                <Row>
+                    <Col>
+                        <h1>Footer</h1>
+                    </Col>
+                </Row>
+            </Container>
 
         </>
             
